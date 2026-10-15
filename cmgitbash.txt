@@ -48,4 +48,4 @@ Sempre que for fazer um commit, passe a mensagem diretamente no comando usando o
  Puxa modificações do repositório remoto para o repositório local
 
 -git push
- Para enviar as modificações para do local para o reomoto
+ Para enviar as modificações para do local para o remoto
