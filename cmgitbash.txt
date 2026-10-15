@@ -49,3 +49,4 @@ Sempre que for fazer um commit, passe a mensagem diretamente no comando usando o
 
 -git push
  Para enviar as modificações para do local para o remoto
+Eita estamos indo para o github e para o vs code online
