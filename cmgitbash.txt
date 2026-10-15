@@ -25,4 +25,14 @@ Funciona como um "ponto de salvamento" (save point) permanente no histórico do 
  Dica para evitar a tela Vim nas próximas vezes:
 Sempre que for fazer um commit, passe a mensagem diretamente no comando usando o parâmetro -m e entre aspas.
 
-skjml,erwqjehnqwnemqweqw
+-git stash
+ É como se fosse um "bolso" que você pode guardar as alterações para que possa prosseguir sem precisar necessariamente dar add ou commit em uma alteração.
+
+-git stash apply
+ Retornar tudo do bolso para a branch atual.
+
+-git stash list
+ Checar o que está no "bolso"
+
+-git stash pop
+ Descartar tudo que está no bolso
