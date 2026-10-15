@@ -36,3 +36,10 @@ Sempre que for fazer um commit, passe a mensagem diretamente no comando usando o
 
 -git stash pop
  Descartar tudo que está no bolso
+
+-git checkout "7 primeiros dígitos do commit do git log"
+ Retornar para aquele commit, como se retornasse no tempo, o diretório será atualizado para como estava nesse commit, salvando ou recuperando arquivos no estado em que estava quando foi commitado.
+
+-git checkout "7 dig" -- "store.txt"
+ Puxa o arquivo do commit para o "stage área", que é a fila de espera central, onde posso retornar o arquivo para a branch principal e recupera-lo. 
+ É importante dar git add e depois commitar para que a alteração fique salva. Me atentar para possíveis alterações ou percas em outros arquivos em futuros estudos.
