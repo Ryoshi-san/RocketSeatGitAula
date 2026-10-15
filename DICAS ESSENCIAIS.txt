@@ -1,0 +1,4 @@
+DICAS ESSENCIAIS
+
+Se acostumar a usar o "cd" sempre que começar
+Lembrar que / é utilizada como a mão que gira a maçaneta, sendo necessária para que o gitbash entenda que deve acessar a pasta, sem / o git entende que é um comando próprio e não o entende, gerando erro.
