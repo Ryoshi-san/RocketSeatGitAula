@@ -43,3 +43,9 @@ Sempre que for fazer um commit, passe a mensagem diretamente no comando usando o
 -git checkout "7 dig" -- "store.txt"
  Puxa o arquivo do commit para o "stage área", que é a fila de espera central, onde posso retornar o arquivo para a branch principal e recupera-lo. 
  É importante dar git add e depois commitar para que a alteração fique salva. Me atentar para possíveis alterações ou percas em outros arquivos em futuros estudos.
+
+-git pull
+ Puxa modificações do repositório remoto para o repositório local
+
+-git push
+ Para enviar as modificações para do local para o reomoto
