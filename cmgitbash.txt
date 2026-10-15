@@ -1,0 +1,28 @@
+ComandosEssenciaisGitBash
+
+-Começar com cd ~ ou cd /users/felip/
+cd é o que conecta ao diretório, ao branch master, é como se o gitbash fosse um corredor cheio de postar e com o cd escolhemos qual abrir.
+
+-git init
+Iniciar o diretório no arquivo escolhido, se entendi certo, é o arquivo com códigos/projetos que se conectará ao GitHub e outras plataformas.
+
+-git status
+ Checar status da pasta em que o diretório está, arquivos não sincronizados, alterações e infos gerais.
+
+-git add. ou git add frases.txt
+ Adicionar o arquivo da pasta do diretório ao branch master, para que comece a sincroniza-lo
+
+-git rm --cached frases.txt
+ Remover o arquivo da pasta do diretório do branch master, para que deixe de sincroniza-lo.
+
+- git restore
+
+Descarta as alterações não salvas num ficheiro no teu diretório de trabalho, restaurando-o para o estado do último commit (ou da staging area).
+
+- git commit
+
+Funciona como um "ponto de salvamento" (save point) permanente no histórico do projeto. Cada commit regista o estado dos ficheiros naquele momento específico, permitindo voltar a esse ponto ou criar ramificações (branches) para testar novas ideias em separado.
+ Dica para evitar a tela Vim nas próximas vezes:
+Sempre que for fazer um commit, passe a mensagem diretamente no comando usando o parâmetro -m e entre aspas.
+
+skjml,erwqjehnqwnemqweqw
